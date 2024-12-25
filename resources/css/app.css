@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Header Gradient */
+header {
+    background: linear-gradient(135deg, #6b21a8, #000000);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px; /* Adjust the height as needed */
+}
+
+nav a {
+    font-size: 16px; /* Adjust link font size */
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #a855f7; /* Hover effect for links */
+}
+
+/* Top Bar */
+.bg-gray-800 {
+    background-color: #2d3748; /* Dark gray */
+}
+
+.top-bar a {
+    transition: background-color 0.3s ease;
+}
+
+/* Icon Box Style */
+.top-bar a:hover {
+    background-color: #6b46c1; /* Purple */
+}
+
+/* Icon Box Shape */
+.top-bar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.25rem; /* Rounded corners */
+}
