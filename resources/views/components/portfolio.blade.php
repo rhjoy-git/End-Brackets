@@ -1,4 +1,4 @@
-<div class="portfolio-container">
+<div class="container mx-auto px-4 py-16 max-w-screen-xl">
     <div class="portfolio-header">
         <div class="portfolio-title">
             <h2>Our Portfolio</h2>

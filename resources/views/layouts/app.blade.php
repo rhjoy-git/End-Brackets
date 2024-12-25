@@ -14,7 +14,7 @@
     <script src="{{asset('resources/js/main.js')}}"></script>
 </head>
 
-<body>
+<body style="background-color: #ececec;">
     <header class="bg-gray-900 text-white">
         @include('components.headertop')
         @include('components.navBar')
@@ -25,6 +25,8 @@
     @include('components.services')
     @include('components.portfolio')
     @include('components.pricingPlans')
+    @include('components.hAndq')
+    @include('components.newsletter')
     @include('components.footer')
 
     @include('components.chatBot')

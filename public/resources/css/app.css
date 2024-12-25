@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'CocaCola';
-    src: url('https://example.com/coca-cola-font.woff') format('woff');
+    font-family: "CocaCola";
+    src: url("https://example.com/coca-cola-font.woff") format("woff");
 }
 
 .coca-cola {
-    font-family: 'CocaCola', sans-serif;
+    font-family: "CocaCola", sans-serif;
 }
 
 /* Hero  Styling */
@@ -28,7 +28,6 @@ header a:hover {
     transform: translateY(-2px);
     /* Subtle hover lift */
 }
-
 
 nav {
     display: flex;
@@ -100,7 +99,7 @@ nav a:hover {
     text-align: center;
     color: #ffffff;
     /* White text */
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .services-slider .service-item img {
@@ -242,13 +241,13 @@ nav a:hover {
 /* ============= Services Start ================ */
 /* Services Section */
 .services-section {
-    background: linear-gradient(180deg, #320B37 0%, #5B0C65 60%, #130415 100%);
+    background: linear-gradient(180deg, #320b37 0%, #5b0c65 60%, #130415 100%);
     padding: 60px 20px;
     color: white;
-    font-family: 'Arial', sans-serif;
+    font-family: "Arial", sans-serif;
     text-align: center;
 }
-.service-container{
+.service-container {
     max-width: 1200px;
     padding: 10px;
     margin: auto;
@@ -419,31 +418,30 @@ nav a:hover {
     max-width: 1200px;
     margin: auto;
     text-align: center;
-  }
-  .portfolio-header{
+}
+.portfolio-header {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     text-align: left;
-  }
-  .portfolio-header h2{
+}
+.portfolio-header h2 {
     font-size: 55px;
     font-weight: bold;
     color: #9c27b0;
     margin: 10px 0;
-  }
-  .portfolio-header h3{
+}
+.portfolio-header h3 {
     font-size: 25px;
     color: #000000;
     margin: 20px 0;
-  }
- 
-  
-  .filter-buttons {
+}
+
+.filter-buttons {
     margin: 10px 0;
-  }
-  
-  .filter-btn {
+}
+
+.filter-btn {
     padding: 10px 20px;
     margin: 5px;
     border: none;
@@ -453,44 +451,48 @@ nav a:hover {
     border-radius: 5px;
     transition: 0.3s;
     font-weight: 500;
-  }
-  
-  .filter-btn:hover,
-  .filter-btn.active {
+}
+
+.filter-btn:hover,
+.filter-btn.active {
     background: #c93ae2;
-  }
-  
-  /* Grid Styling */
-  .portfolio-grid {
+}
+
+/* Grid Styling */
+.portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-  }
-  
-  .portfolio-card {
+}
+
+.portfolio-card {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-  }
-  
-  .portfolio-card img {
+}
+
+.portfolio-card img {
     width: 100%;
     height: auto;
     transition: transform 0.3s ease;
-  }
-  
-  .portfolio-card:hover img {
+}
+
+.portfolio-card:hover img {
     transform: scale(1.1);
-  }
-  
-  /* Overlay */
-  .card-overlay {
+}
+
+/* Overlay */
+.card-overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, rgba(179, 30, 207, 0.54) 0%, rgba(91, 15, 105, 0.9) 100%);
+    background: linear-gradient(
+        180deg,
+        rgba(179, 30, 207, 0.54) 0%,
+        rgba(91, 15, 105, 0.9) 100%
+    );
     color: white;
     display: flex;
     flex-direction: column;
@@ -498,123 +500,122 @@ nav a:hover {
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s ease;
-  }
-  
-  .portfolio-card:hover .card-overlay {
+}
+
+.portfolio-card:hover .card-overlay {
     opacity: 1;
-  }
-  
-  .card-overlay h4 {
+}
+
+.card-overlay h4 {
     font-size: 22px;
     font-weight: 600;
     margin: 10px 0;
-  }
-  .card-overlay p {
+}
+.card-overlay p {
     padding: 0 16px;
-  }
-  .card-overlay span {
+}
+.card-overlay span {
     font-size: 16px;
     color: #fba504;
     font-weight: 600;
-  }
-  
-/* ============= Portfolio End ================ */
+}
 
+/* ============= Portfolio End ================ */
 
 /* ============= Pricing plan Start ================ */
 .pricing-section {
-            text-align: center;
-            padding: 50px 20px;
-        }
-        .pricing-section h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            font-weight: bolder;
-        }
-        .pricing-section p {
-            font-size: 1.2em;
-            margin-bottom: 30px;
-            color: #666;
-        }
-        .filter-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-bottom: 30px;
-        }
-        .filter-buttons button {
-            background-color: #c93ae2;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 1.1em;
-            font-weight: 500;
-            color: #e2e2e2;
-        }
-        .filter-buttons button.active {
-            background-color: #b90dd7;
-            color: #fff;
-        }
-        .pricing-plans {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .plan {
-            background-color: #fff;
-            border: 2px solid #B31ECF;
-            border-radius: 10px;
-            width: 300px;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 0 10px 5px rgba(179, 30, 207, 0.5);
-        }
-        
-        .plan h3 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-        .plan h4 {
-            font-size: 2em;
-            color: #333;
-            margin-bottom: 10px;
-        }
-        .plan p {
-            font-size: 0.9em;
-            color: #666;
-            margin-bottom: 20px;
-        }
-        .plan ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .plan ul li {
-            margin: 10px 0;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .plan ul li::before {
-            content: "\2713";
-            color: #4caf50;
-        }
-        .plan button {
-            background-color: #9c27b0;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 20px;
-            color: #fff;
-            cursor: pointer;
-            font-size: 1em;
-        }
+    text-align: center;
+    padding: 50px 20px;
+}
+.pricing-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.pricing-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #666;
+}
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.filter-buttons button {
+    background-color: #c93ae2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #e2e2e2;
+}
+.filter-buttons button.active {
+    background-color: #b90dd7;
+    color: #fff;
+}
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.plan {
+    background-color: #fff;
+    border: 2px solid #b31ecf;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px 5px rgba(179, 30, 207, 0.5);
+}
+
+.plan h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.plan h4 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+.plan p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+}
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.plan ul li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.plan ul li::before {
+    content: "\2713";
+    color: #4caf50;
+}
+.plan button {
+    background-color: #9c27b0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+}
 /* ============= Pricing plan End ================ */
 
 /* ============= Footer Start ================ */
 .footer {
-    background: linear-gradient(0deg, #9614A7 0%, #520C5C 100%);
+    background: linear-gradient(0deg, #9614a7 0%, #520c5c 100%);
     color: #fff;
     padding: 50px 20px;
 }
@@ -661,7 +662,7 @@ nav a:hover {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: #520C5C;
+    background: #520c5c;
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
@@ -670,7 +671,7 @@ nav a:hover {
     transition: background 0.3s;
 }
 .social-icons a:hover {
-    background: #9614A7;
+    background: #9614a7;
 }
 .icon-box {
     width: 40px;
@@ -678,12 +679,12 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #520C5C;
+    background-color: #520c5c;
     border-radius: 8px;
     color: white;
 }
 .footer-bottom {
-    background-color: #3F0D48;
+    background-color: #3f0d48;
     padding: 15px 20px;
     text-align: center;
     color: #fff;
@@ -697,11 +698,10 @@ nav a:hover {
 .footer-bottom a:hover {
     text-decoration: underline;
 }
-.ebbrand{
-    font-family: 'CocaCola', sans-serif;
+.ebbrand {
+    font-family: "CocaCola", sans-serif;
 }
 /* ============= Footer End ================ */
-
 
 /* ============= H&Q Start ================ */
 .faq-item:hover .faq-answer {
@@ -709,13 +709,102 @@ nav a:hover {
     opacity: 1;
 }
 
-.faq-answer {
+.faq-item {
+    position: relative;
+    padding: 1.5rem 0;
+    border-top: 1px solid #ddd; /* Horizontal line */
+    cursor: pointer;
+}
+.faq-item h5 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+.faq-item:hover h5 {
+    color: #9614a7; 
+}
+.faq-item p {
+    font-size: 1.15rem;
+    color: #555;
     max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease, opacity 0.3s ease;
     opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    margin: 0;
+    max-width: 90%;
+}
+.faq-item.open p {
+    max-height: 100px; 
+    opacity: 1;
+    margin-top: 1rem;
+}
+.faq-item .icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.faq-item.open .icon {
+    transform: rotate(45deg); /* Transform plus to minus */
 }
 /* ============= H&Q End ================ */
+
+/* ============= newsletter Start ================ */
+/* .newsletter-section {
+    background: url("{{ asset('../images/services/newsletter.png') }}") no-repeat center center;
+    background-size: cover;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.newsletter-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.newsletter-content form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter-content input[type="email"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    max-width: 100%;
+    font-size: 16px;
+}
+
+.newsletter-content button {
+    background-color: #ff007f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-content button i {
+    margin-left: 5px;
+}
+
+.newsletter-content button:hover {
+    background-color: #e60072;
+} */
+
+/* ============= newsletter End ================ */
 
 /* ============= Chatbot Start ================ */
 /* Chatbot Icon */

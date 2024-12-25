@@ -1,5 +1,5 @@
 <section class="services-section">
-    <div class="service-container">
+    <div class="container mx-auto px-4 py-16 max-w-screen-xl">
         <h2 class="section-title">Service We Offer</h2>
         <div class="services-list">
             <!-- Service 1 -->

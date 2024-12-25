@@ -31,18 +31,18 @@
             <ul class="space-y-4">
                 <li class="flex items-center">
                     <div class="icon-box"><i class="fa fa-envelope"></i></div>
-                    <a href="mailto:info@endbrackets.com" class="text-white hover:underline">info@endbrackets.com</a>
+                    <a href="mailto:info@endbrackets.com" class="text-white hover:underline pl-2">info@endbrackets.com</a>
                 </li>
                 <li class="flex items-center">
                     <div class="icon-box flex-shrink-0"><i class="fa fa-phone"></i></div>
-                    <div class="text-center">
+                    <div class="text-center pl-2">
                         <span>+8 8 0 1 2 3 4 5 6 7 8 9</span><br />
                         <span>+8 8 0 9 8 7 6 5 4 3 2 1</span>
                     </div>
                 </li>
                 <li class="flex items-center">
                     <div class="icon-box flex-shrink-0"><i class="fa fa-map-marker"></i></div>
-                    <div class="text-left">
+                    <div class="text-left pl-2">
                         <span>House: 120 (1st floor), Road: 01, Avenue: 03,</span><br />
                         <span>Mirpur DOSH, Dhaka, Bangladesh.</span>
                     </div>
