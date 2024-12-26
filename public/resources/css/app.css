@@ -75,55 +75,7 @@ nav a:hover {
     /* Rounded corners */
 }
 
-/* Services Slider  */
-.services-slider {
-    background: #2c0032;
-    /* Dark purple background */
-    padding: 20px 0;
-    overflow: hidden;
-}
 
-.services-content {
-    display: flex;
-    flex-direction: row;
-    /* Ensure items are aligned in a row */
-    justify-content: center;
-    align-items: center;
-    /* Space between items */
-    animation: moveRightToLeft 10s linear infinite;
-}
-
-.services-slider .service-item {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    /* White text */
-    font-family: "Poppins", sans-serif;
-}
-
-.services-slider .service-item img {
-    width: 60px;
-    /* Adjust icon size */
-    height: 60px;
-    margin-bottom: 10px;
-}
-
-.services-slider .service-item span {
-    font-size: 16px;
-    /* Adjust text size */
-    margin-top: 5px;
-}
-
-/* Animation for slider */
-/* @keyframes moveRightToLeft {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-} */
 
 /* ============================= */
 /* Video Section Styling */
