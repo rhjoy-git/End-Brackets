@@ -16,16 +16,15 @@ export default {
             },
             fontFamily: {
                 sans: ["Figtree", ...defaultTheme.fontFamily.sans],
-            },
-            fontFamily: {
+                iceberg: ["Iceberg", ...defaultTheme.fontFamily.sans],
                 poppins: ["Poppins", "sans-serif"], // Poppins font for consistency
             },
             animation: {
-                scroll: "scroll 10s linear infinite", // Smooth scroll animation
+                scroll: "scroll 20s linear infinite", // Smooth scroll animation
             },
             keyframes: {
                 scroll: {
-                    "0%": { transform: "translateX(100%)" },
+                    "0%": { transform: "translateX(0%)" },
                     "100%": { transform: "translateX(-100%)" },
                 },
             },

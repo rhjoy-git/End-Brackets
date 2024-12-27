@@ -7,7 +7,9 @@
     @vite('resources/css/app.css')
     <title>End Brackets</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
-    
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+
     <!-- Include CSS -->
     <link rel="stylesheet" href="{{ asset('/resources/css/app.css') }}">
     <!-- Include Bootstrap/Tailwind -->
@@ -16,10 +18,8 @@
 </head>
 
 <body style="background-color: #ececec;">
-    <header class="bg-gray-900 text-white">
-        @include('components.headertop')
-        @include('components.navBar')
-        @include('components.heroSection')
+    <header class="bg-cover bg-center h-screen" style="background-image: url('{{ asset('resources/images/Hero image.png') }}');">
+        @include('components.header')
     </header>
     @include('components.serviceSlide')
     @include('components.videoSection')

@@ -365,7 +365,7 @@ nav a:hover {
 
 /* ============= Portfolio Start ================ */
 /* General Styling */
-.portfolio-container {
+/* .portfolio-container {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
@@ -408,10 +408,10 @@ nav a:hover {
 .filter-btn:hover,
 .filter-btn.active {
     background: #c93ae2;
-}
+} */
 
 /* Grid Styling */
-.portfolio-grid {
+/* .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
@@ -431,10 +431,10 @@ nav a:hover {
 
 .portfolio-card:hover img {
     transform: scale(1.1);
-}
+} */
 
 /* Overlay */
-.card-overlay {
+/* .card-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -470,7 +470,7 @@ nav a:hover {
     font-size: 16px;
     color: #fba504;
     font-weight: 600;
-}
+} */
 
 /* ============= Portfolio End ================ */
 
