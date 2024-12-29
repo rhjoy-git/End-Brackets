@@ -7,75 +7,6 @@
     font-family: "CocaCola", sans-serif;
 }
 
-
-/* Hero  Styling */
-header {
-    position: relative;
-    background: linear-gradient(to bottom, #2d3748, #1a202c);
-    /* Dark gradient */
-    color: white;
-}
-
-header h1 span {
-    color: #a855f7;
-    /* Highlight color */
-}
-
-/* Button Hover Effects */
-header a {
-    transition: all 0.3s ease;
-}
-
-header a:hover {
-    transform: translateY(-2px);
-    /* Subtle hover lift */
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    /* Adjust the height as needed */
-}
-
-nav a {
-    font-size: 16px;
-    /* Adjust link font size */
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #a855f7;
-    /* Hover effect for links */
-}
-
-/* Top Bar */
-.bg-gray-800 {
-    background-color: #2d3748;
-    /* Dark gray */
-}
-
-.top-bar a {
-    transition: background-color 0.3s ease;
-}
-
-/* Icon Box Style */
-.top-bar a:hover {
-    background-color: #6b46c1;
-    /* Purple */
-}
-
-/* Icon Box Shape */
-.top-bar a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 0.25rem;
-    /* Rounded corners */
-}
 /* ============== Service slider Start =============== */
 
 @keyframes scroll {
@@ -242,10 +173,6 @@ nav a:hover {
 /* Service Content */
 .services-list .service-item .service-content {
     visibility: visible;
-}
-
-.services-list .service-item .service-description {
-    max-width: 75%;
 }
 
 .services-list .service-item:hover .service-description {

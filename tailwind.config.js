@@ -19,6 +19,9 @@ export default {
                 iceberg: ["Iceberg", ...defaultTheme.fontFamily.sans],
                 poppins: ["Poppins", "sans-serif"], // Poppins font for consistency
             },
+            backgroundImage: {
+                'custom-gradient': 'linear-gradient(180deg, #320b37 0%, #5b0c65 60%, #130415 100%)',
+              },
             animation: {
                 scroll: "scroll 20s linear infinite", // Smooth scroll animation
             },

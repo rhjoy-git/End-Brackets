@@ -20,14 +20,13 @@
 <body style="background-color: #ececec;">
 
 
-    <header class="bg-cover bg-center h-screen" style="background-image: url('{{ asset('resources/images/Hero image.png') }}');">
-        @include('components.header')
-    </header>
+    @include('components.header')
     @include('components.serviceSlide')
     @include('components.videoSection')
     @include('components.services')
     @include('components.portfolio')
     @include('components.pricingPlans')
+    @include('components.team')
     @include('components.hAndq')
     @include('components.newsletter')
     @include('components.footer')
