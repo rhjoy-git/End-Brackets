@@ -7,8 +7,10 @@
     font-family: "CocaCola", sans-serif;
 }
 
+
 /* Hero  Styling */
 header {
+    position: relative;
     background: linear-gradient(to bottom, #2d3748, #1a202c);
     /* Dark gradient */
     color: white;

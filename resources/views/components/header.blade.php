@@ -1,5 +1,5 @@
 <!-- Top Bar -->
-<div class=" py-2">
+<div class=" py-3">
     <div class="container mx-auto flex justify-between items-center px-6">
         <!-- Left Side: Location, Call, Email -->
         <div class="flex items-center space-x-4">
@@ -60,7 +60,7 @@
 
         <!-- Center Brand -->
         <a href="#" class="mx-10">
-            <img src="{{ asset('/resources/images/eblogo.png') }}" alt="End Brackets Logo" class="h-11">
+            <img src="{{ asset('/resources/images/elogo.png') }}" alt="Eb Logo" class="h-11">
         </a>
 
 
@@ -73,12 +73,10 @@
     </div>
 </nav>
 
-
-
 <!-- Hero Section -->
 <div class="container mx-auto text-center py-12 px-6">
-    <h1 class="text-6xl font-light mb-4" style="font-family: 'Inria Sans', sans-serif;">We Develop</h1>
-    <h2 class="text-7xl mb-6 iceberg tracking-wide">Innovative Products</h2>
+    <h1 class="text-7xl font-light mb-4 lg:my-14" style="font-family: 'Inria Sans', sans-serif;">We Develop</h1>
+    <h2 class="text-8xl mb-6 lg:mb-16 iceberg tracking-wide">Innovative Products</h2>
     <p class="my-8 text-xl">Software Development • UI/UX Design • Digital Marketing</p>
     <!-- Buttons -->
     <div class="flex justify-center space-x-4">

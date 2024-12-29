@@ -18,6 +18,8 @@
 </head>
 
 <body style="background-color: #ececec;">
+
+
     <header class="bg-cover bg-center h-screen" style="background-image: url('{{ asset('resources/images/Hero image.png') }}');">
         @include('components.header')
     </header>
@@ -33,6 +35,8 @@
     @include('components.chatBot')
 
 
-    <script src="{{asset('resources/js/main.js')}}"></script>
+    <script src="{{ asset('resources/js/main.js') }}"></script>
+
 </body>
+
 </html>

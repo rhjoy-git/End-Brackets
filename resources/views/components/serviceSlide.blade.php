@@ -1,5 +1,5 @@
-<section class="container bg-customPurple py-14 mx-auto">
-    <div class="md:px-20 px-6 overflow-hidden md:w-11/12 mx-auto">
+<section class=" bg-customPurple py-14">
+    <div class="md:px-20 px-6 overflow-hidden md:w-11/12 container mx-auto">
         <div class="slide-track flex items-center space-x-20">
             <!-- WordPress 1 -->
             <div class="flex items-center text-white text-center">
