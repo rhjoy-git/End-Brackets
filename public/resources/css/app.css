@@ -147,12 +147,7 @@
 
 /* ============= Services Start ================ */
 
-/* Services Section */
-.services-section {
-    background: linear-gradient(180deg, #320b37 0%, #5b0c65 60%, #130415 100%);
-    color: white;
-    font-family: "Arial", sans-serif;
-}
+
 
 .section-title {
     font-size: 3rem;
@@ -162,13 +157,6 @@
 }
 
 /* Service Item */
-.services-list .service-item {
-    position: relative;
-}
-
-.services-list .service-item:hover {
-    cursor: pointer;
-}
 
 /* Service Content */
 .services-list .service-item .service-content {
@@ -235,117 +223,6 @@
 }
 /* ============= Services End ================ */
 
-/* ============= Portfolio Start ================ */
-/* General Styling */
-/* .portfolio-container {
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-}
-.portfolio-header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    text-align: left;
-}
-.portfolio-header h2 {
-    font-size: 55px;
-    font-weight: bold;
-    color: #9c27b0;
-    margin: 10px 0;
-}
-.portfolio-header h3 {
-    font-size: 25px;
-    color: #000000;
-    margin: 20px 0;
-}
-
-.filter-buttons {
-    margin: 10px 0;
-}
-
-.filter-btn {
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    background: #9c27b0;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: 0.3s;
-    font-weight: 500;
-}
-
-.filter-btn:hover,
-.filter-btn.active {
-    background: #c93ae2;
-} */
-
-/* Grid Styling */
-/* .portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.portfolio-card {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.portfolio-card img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-}
-
-.portfolio-card:hover img {
-    transform: scale(1.1);
-} */
-
-/* Overlay */
-/* .card-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-        180deg,
-        rgba(179, 30, 207, 0.54) 0%,
-        rgba(91, 15, 105, 0.9) 100%
-    );
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.portfolio-card:hover .card-overlay {
-    opacity: 1;
-}
-
-.card-overlay h4 {
-    font-size: 22px;
-    font-weight: 600;
-    margin: 10px 0;
-}
-.card-overlay p {
-    padding: 0 16px;
-}
-.card-overlay span {
-    font-size: 16px;
-    color: #fba504;
-    font-weight: 600;
-} */
-
-/* ============= Portfolio End ================ */
-
 /* ============= Pricing plan Start ================ */
 .pricing-section {
     text-align: center;
@@ -389,12 +266,11 @@
 }
 .plan {
     background-color: #fff;
-    border: 2px solid #b31ecf;
+    border: 1px solid #b31ecf;
     border-radius: 10px;
     width: 300px;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 0 10px 5px rgba(179, 30, 207, 0.5);
 }
 
 .plan h3 {

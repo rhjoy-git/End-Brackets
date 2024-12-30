@@ -1,6 +1,6 @@
 <section class="services-section">
     <div class="container mx-auto px-4 py-16 max-w-screen-xl">
-        <h2 class="section-title text-3xl font-extrabold mb-10 text-left text-white">Services We Offer</h2>
+        <h2 class="section-title text-5xl font-bold mb-10 text-left text-white">Services We Offer</h2>
         <div class="services-list flex flex-col space-y-2">
             <!-- Service 1 -->
             <div

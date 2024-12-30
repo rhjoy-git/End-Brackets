@@ -23,7 +23,7 @@ export default {
                 'custom-gradient': 'linear-gradient(180deg, #320b37 0%, #5b0c65 60%, #130415 100%)',
               },
             animation: {
-                scroll: "scroll 20s linear infinite", // Smooth scroll animation
+                scroll: "scroll 20s linear infinite", 
             },
             keyframes: {
                 scroll: {

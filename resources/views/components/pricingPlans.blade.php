@@ -1,8 +1,8 @@
 <div class="pricing-section">
-    <h1>Pricing Plans</h1>
-    <p>Select the pricing option that fits your needs, or contact us for a custom offer tailored to your requirements.</p>
+    <h1 class="text-5xl">Pricing Plans</h1>
+    <p class="taxt-base">Select the pricing option that fits your needs, or contact us for a custom offer tailored to your requirements.</p>
 
-    <div class="filter-buttons">
+    <div class="filter-buttons flex flex-wrap justify-center gap-2 my-5">
         <button class="active" onclick="showPlans('shopify')">Shopify</button>
         <button onclick="showPlans('ecommerce')">E-Commerce Website</button>
         <button onclick="showPlans('landing')">Landing Page</button>

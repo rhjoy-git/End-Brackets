@@ -2,7 +2,7 @@
     <div class="container mx-auto px-4">
         <!-- Section Header -->
         <div class="text-center">
-            <h2 class="text-4xl font-bold text-white">Meet Our Team</h2>
+            <h2 class="text-5xl font-bold text-white">Meet Our Team</h2>
             <p class="text-lg text-gray-300 mt-4">
                 Get to know the talented individuals who make our company thrive.
                 Our diverse team brings together a wealth of expertise.
