@@ -1,4 +1,4 @@
-<section class="services-section">
+<section class="services-section bg-custom-gradient">
     <div class="container mx-auto px-4 py-16 max-w-screen-xl">
         <h2 class="section-title text-5xl font-ebfont font-bold mb-10 text-left text-white">Services We Offer</h2>
         <div class="services-list flex flex-col space-y-2">
@@ -12,7 +12,7 @@
                 <div
                     class="service-content flex-1 text-left opacity-70 transition-opacity duration-1000 group-hover:opacity-100">
                     <h3
-                        class="service-title text-5xl font-bold text-[#d1c4e9] transition-colors duration-1000 group-hover:text-white">
+                        class="service-title text-5xl font-plush font-bold text-[#d1c4e9] transition-colors duration-1000 group-hover:text-white">
                         Web Development</h3>
                     <p
                         class="service-description leading-7 w-full md:w-3/4  my-4 text-xl  text-[#ffffffcc] opacity-0 visibility-hidden transition-all duration-1000 group-hover:opacity-100 group-hover:visible">
@@ -39,8 +39,8 @@
                 <div
                     class="service-content flex-1 text-left opacity-70 transition-opacity duration-1000 group-hover:opacity-100">
                     <h3
-                        class="service-title text-5xl font-bold text-[#d1c4e9] transition-colors duration-1000 group-hover:text-white">
-                        Web Development</h3>
+                        class="service-title text-5xl font-bold font-plush text-[#d1c4e9] transition-colors duration-1000 group-hover:text-white">
+                        Shopify</h3>
                     <p
                         class="service-description leading-7 w-full md:w-3/4  my-4 text-xl  text-[#ffffffcc] opacity-0 visibility-hidden transition-all duration-1000 group-hover:opacity-100 group-hover:visible">
                         Our professional web design solutions are creative and functional to create stunning websites.
@@ -66,8 +66,8 @@
                 <div
                     class="service-content flex-1 text-left opacity-70 transition-opacity duration-1000 group-hover:opacity-100">
                     <h3
-                        class="service-title text-5xl font-bold text-[#d1c4e9] transition-colors duration-1000 group-hover:text-white">
-                        Web Development</h3>
+                        class="service-title text-5xl font-plush font-bold text-[#d1c4e9] transition-colors duration-1000 group-hover:text-white">
+                        UI/UX Design</h3>
                     <p
                         class="service-description leading-7 w-full md:w-3/4  my-4 text-xl  text-[#ffffffcc] opacity-0 visibility-hidden transition-all duration-1000 group-hover:opacity-100 group-hover:visible">
                         Our professional web design solutions are creative and functional to create stunning websites.
@@ -93,8 +93,8 @@
                 <div
                     class="service-content flex-1 text-left opacity-70 transition-opacity duration-1000 group-hover:opacity-100">
                     <h3
-                        class="service-title text-5xl font-bold text-[#d1c4e9] transition-colors duration-1000 group-hover:text-white">
-                        Web Development</h3>
+                        class="service-title text-5xl font-plush font-bold text-[#d1c4e9] transition-colors duration-1000 group-hover:text-white">
+                        Flutter App Development</h3>
                     <p
                         class="service-description leading-7 w-full md:w-3/4  my-4 text-xl  text-[#ffffffcc] opacity-0 visibility-hidden transition-all duration-1000 group-hover:opacity-100 group-hover:visible">
                         Our professional web design solutions are creative and functional to create stunning websites.
@@ -120,8 +120,8 @@
                 <div
                     class="service-content flex-1 text-left opacity-70 transition-opacity duration-1000 group-hover:opacity-100">
                     <h3
-                        class="service-title text-5xl font-bold text-[#d1c4e9] transition-colors duration-1000 group-hover:text-white">
-                        Web Development</h3>
+                        class="service-title text-5xl font-plush font-bold text-[#d1c4e9] transition-colors duration-1000 group-hover:text-white">
+                        Digital Marketing</h3>
                     <p
                         class="service-description leading-7 w-full md:w-3/4  my-4 text-xl  text-[#ffffffcc] opacity-0 visibility-hidden transition-all duration-1000 group-hover:opacity-100 group-hover:visible">
                         Our professional web design solutions are creative and functional to create stunning websites.

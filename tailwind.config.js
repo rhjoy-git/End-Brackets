@@ -15,12 +15,14 @@ export default {
                 customPurple: "#2c0032", 
             },
             fontFamily: {
-                sans: ["Figtree", ...defaultTheme.fontFamily.sans],
-                iceberg: ["Iceberg", ...defaultTheme.fontFamily.sans],
+                sans: ["Figtree", 'sans-serif'],
+                iceberg: ["Iceberg", 'sans-serif'],
+                plush: ['"Plush-Regular"', 'sans-serif'],
                 poppins: ["Poppins", "sans-serif"],
                 aeonik: ['Aeonik', 'sans-serif'],
                 rubik: ['Rubik', 'sans-serif'],
                 ebfont: ['Aeonik', 'Rubik', 'serif'],
+                garamond: ['"Garamond"', 'serif'],
             },
             backgroundImage: {
                 'custom-gradient': 'linear-gradient(180deg, #320b37 0%, #5b0c65 60%, #130415 100%)',
