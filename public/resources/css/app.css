@@ -6,6 +6,31 @@
 .coca-cola {
     font-family: "CocaCola", sans-serif;
 }
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/fonts/New Aeonik Trials/AeonikTRIAL-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/fonts/New Aeonik Trials/AeonikTRIAL-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/fonts/New Aeonik Trials/AeonikTRIAL-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Example usage */
+body {
+    font-family: 'Aeonik', sans-serif;
+}
 
 /* ============== Service slider Start =============== */
 

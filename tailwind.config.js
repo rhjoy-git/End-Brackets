@@ -12,12 +12,15 @@ export default {
     theme: {
         extend: {
             colors: {
-                customPurple: "#2c0032", // Add the custom purple color
+                customPurple: "#2c0032", 
             },
             fontFamily: {
                 sans: ["Figtree", ...defaultTheme.fontFamily.sans],
                 iceberg: ["Iceberg", ...defaultTheme.fontFamily.sans],
-                poppins: ["Poppins", "sans-serif"], // Poppins font for consistency
+                poppins: ["Poppins", "sans-serif"],
+                aeonik: ['Aeonik', 'sans-serif'],
+                rubik: ['Rubik', 'sans-serif'],
+                ebfont: ['Aeonik', 'Rubik', 'serif'],
             },
             backgroundImage: {
                 'custom-gradient': 'linear-gradient(180deg, #320b37 0%, #5b0c65 60%, #130415 100%)',

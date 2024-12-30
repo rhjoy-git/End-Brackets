@@ -1,5 +1,5 @@
 <div class="pricing-section">
-    <h1 class="text-5xl">Pricing Plans</h1>
+    <h1 class="text-5xl font-bold font-ebfont">Pricing Plans</h1>
     <p class="taxt-base">Select the pricing option that fits your needs, or contact us for a custom offer tailored to your requirements.</p>
 
     <div class="filter-buttons flex flex-wrap justify-center gap-2 my-5">
