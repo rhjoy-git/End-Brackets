@@ -16,7 +16,7 @@
         </div>
 
         <!-- Center Section -->
-        <div class="w-full md:w-1/3 mb-6 text-center">
+        <div class="w-full md:w-1/3 mb-6 md:text-center text-left">
             <h3 class="text-xl mb-4">Quick Links</h3>
             <ul class="space-y-2">
                 <li><a href="#" class="text-white hover:underline">Home</a></li>

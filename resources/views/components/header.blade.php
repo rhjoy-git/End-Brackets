@@ -79,7 +79,7 @@
     <nav class="md:hidden">
         <div class="flex items-center justify-between h-20 px-6 md:px-10">
             <!-- Left (Logo) -->
-            <a href="#" class="h-11">
+            <a href="#" class="h-8">
                 <img src="{{ asset('/resources/images/eblogo.png') }}" alt="Eb Logo" class="h-full">
             </a>
 

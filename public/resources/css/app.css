@@ -1,39 +1,37 @@
 @font-face {
-    font-family: 'AeonikTRIAL';
-    src: url('/fonts/AeonikTRIAL-Bold.otf') format('opentype'),
-         url('/fonts/AeonikTRIAL-Regular.otf') format('opentype');
+    font-family: "AeonikTRIAL";
+    src: url("/fonts/AeonikTRIAL-Bold.otf") format("opentype"),
+        url("/fonts/AeonikTRIAL-Regular.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Plush';
-    src: url('/fonts/Plush-Bold-BF654c40144cc74.otf') format('opentype'),
-         url('/fonts/Plush-ExtraBold-BF654c4014409f5.otf') format('opentype'),
-         url('/fonts/Plush-Medium-BF654c401412ccd.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Plush";
+    src: url("/fonts/Plush-Bold-BF654c40144cc74.otf") format("opentype"),
+        url("/fonts/Plush-ExtraBold-BF654c4014409f5.otf") format("opentype"),
+        url("/fonts/Plush-Medium-BF654c401412ccd.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Rubik';
-    src: url('/fonts/Rubik-Black.ttf') format('truetype'),
-         url('/fonts/Rubik-Bold.ttf') format('truetype'),
-         url('/fonts/Rubik-ExtraBold.ttf') format('truetype'),
-         url('/fonts/Rubik-Italic-VariableFont_wght.ttf') format('truetype'),
-         url('/fonts/Rubik-Medium.ttf') format('truetype'),
-         url('/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("/fonts/Rubik-Black.ttf") format("truetype"),
+        url("/fonts/Rubik-Bold.ttf") format("truetype"),
+        url("/fonts/Rubik-ExtraBold.ttf") format("truetype"),
+        url("/fonts/Rubik-Italic-VariableFont_wght.ttf") format("truetype"),
+        url("/fonts/Rubik-Medium.ttf") format("truetype"),
+        url("/fonts/Rubik-VariableFont_wght.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-  }
-  
+}
 
 /* Add more font-face declarations here for other font styles/weights */
 
-
 /* Example usage */
 body {
-    font-family: 'Aeonik', sans-serif;
+    font-family: "Aeonik", sans-serif;
 }
 
 /* ============== Service slider Start =============== */
@@ -42,7 +40,6 @@ body {
     0% {
         transform: translateX(0);
     }
-
 
     100% {
         transform: translateX(calc(-330px * 5));
@@ -60,11 +57,9 @@ body {
     overflow: hidden;
 }
 
-
 .slide-track:hover {
     animation-play-state: paused;
 }
-
 
 /* ============== Service slider End =============== */
 /* ============================= */
@@ -85,7 +80,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
     display: flex;
     justify-content: space-between;
 }
@@ -116,7 +110,6 @@ body {
     position: relative;
     max-width: 920px;
     margin: 0 auto;
-    z-index: 2;
     background: white;
     border-radius: 20px;
     padding: 20px;
@@ -182,9 +175,6 @@ body {
 
 /* ============= Services Start ================ */
 
-
-
-
 .section-title {
     font-size: 3rem;
     margin-bottom: 40px;
@@ -214,7 +204,6 @@ body {
     transition: opacity 1s ease, transform 1s ease, margin 0.3s ease;
 }
 
-
 /* Order Number */
 .services-list .service-item:hover .service-number {
     transform: translateY(-10px);
@@ -229,8 +218,7 @@ body {
     transform: scale(1.1) rotate(30deg) translate(-35%, 35%);
 }
 
-
-.services-list>.service-item::before {
+.services-list > .service-item::before {
     content: "";
     position: absolute;
     top: 0;
@@ -259,13 +247,9 @@ body {
     }
 }
 
-
 /* ============= Services End ================ */
 
 /* ============= Pricing plan Start ================ */
-
-
-
 
 /* ============= Pricing plan End ================ */
 
@@ -276,13 +260,11 @@ body {
     padding: 50px 20px;
 }
 
-
 .footer .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 
 .footer-column {
     flex: 1;
@@ -290,12 +272,10 @@ body {
     margin: 10px;
 }
 
-
 .footer-column h3 {
     font-size: 1.5em;
     margin-bottom: 20px;
 }
-
 
 .footer-column p {
     font-size: 0.9em;
@@ -304,17 +284,14 @@ body {
     color: #eaeaea;
 }
 
-
 .footer-column ul {
     list-style: none;
     padding: 0;
 }
 
-
 .footer-column ul li {
     margin-bottom: 10px;
 }
-
 
 .footer-column ul li a {
     color: #fff;
@@ -322,17 +299,14 @@ body {
     font-size: 0.9em;
 }
 
-
 .footer-column ul li a:hover {
     text-decoration: underline;
 }
-
 
 .social-icons {
     display: flex;
     gap: 10px;
 }
-
 
 .social-icons a {
     display: inline-block;
@@ -347,11 +321,9 @@ body {
     transition: background 0.3s;
 }
 
-
 .social-icons a:hover {
     background: #9614a7;
 }
-
 
 .icon-box {
     width: 40px;
@@ -364,7 +336,6 @@ body {
     color: white;
 }
 
-
 .footer-bottom {
     background-color: #3f0d48;
     padding: 15px 20px;
@@ -373,29 +344,24 @@ body {
     font-size: 0.9em;
 }
 
-
 .footer-bottom a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
 }
 
-
 .footer-bottom a:hover {
     text-decoration: underline;
 }
-
 
 .ebbrand {
     font-family: "CocaCola", sans-serif;
 }
 
-
 /* ============= Footer End ================ */
 
 /* ============= H&Q Start ================ */
 .faq-item:hover .faq-answer {
-    max-height: 500px;
     opacity: 1;
 }
 
@@ -409,9 +375,7 @@ body {
     cursor: pointer;
 }
 
-
 .faq-item h5 {
-    font-size: 1.3rem;
     font-weight: 600;
     color: #333;
     margin: 0;
@@ -421,36 +385,30 @@ body {
     transition: color 0.3s ease;
 }
 
-
 .faq-item:hover h5 {
     color: #9614a7;
 }
 
-
 .faq-item p {
-    font-size: 1.15rem;
     color: #555;
     max-height: 0;
     opacity: 0;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     margin: 0;
-    max-width: 90%;
 }
-
 
 .faq-item.open p {
-    max-height: 100px;
+    max-height: 200px;
+    overflow-y: scroll;
     opacity: 1;
-    margin-top: 1rem;
+    margin: 16px 8px;
 }
-
 
 .faq-item .icon {
     font-size: 1.5rem;
     transition: transform 0.3s ease;
 }
-
 
 .faq-item.open .icon {
     transform: rotate(45deg);
@@ -459,62 +417,10 @@ body {
     /* Transform plus to minus */
 }
 
-
+.service-description {
+    max-height: 0;
+}
 /* ============= H&Q End ================ */
-
-/* ============= newsletter Start ================ */
-/* .newsletter-section {
-    background: url("{{ asset('../images/services/newsletter.png') }}") no-repeat center center;
-    background-size: cover;
-    padding: 50px 20px;
-    text-align: center;
-    color: white;
-}
-
-.newsletter-content h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.newsletter-content form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.newsletter-content input[type="email"] {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 25px;
-    width: 300px;
-    max-width: 100%;
-    font-size: 16px;
-}
-
-.newsletter-content button {
-    background-color: #ff007f;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.newsletter-content button i {
-    margin-left: 5px;
-}
-
-.newsletter-content button:hover {
-    background-color: #e60072;
-} */
-
-/* ============= newsletter End ================ */
 
 /* ============= Chatbot Start ================ */
 /* Chatbot Icon */

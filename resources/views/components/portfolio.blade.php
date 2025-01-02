@@ -2,7 +2,7 @@
     <!-- Portfolio Header -->
     <div class="flex flex-col sm:flex-row justify-between items-center sm:items-end mb-8">
         <div class="text-center sm:text-left">
-            <h2 class="text-5xl sm:text-4xl font-bold text-[#6B21A8] mb-2">Our Portfolio</h2>
+            <h2 class="md:text-5xl text-2xl font-bold text-[#6B21A8] mb-2">Our Portfolio</h2>
             <h3 class="text-lg sm:text-xl text-gray-800">Recent Projects</h3>
         </div>
         <div class="filter-buttons flex flex-wrap justify-center sm:justify-end gap-2 mt-4 sm:mt-0">

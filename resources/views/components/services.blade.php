@@ -1,6 +1,6 @@
 <section class="services-section bg-custom-gradient">
     <div class="container mx-auto px-4 py-16 max-w-screen-xl">
-        <h2 class="text-5xl sm:text-4xl font-bold text-white text-left mb-8">Services We Offer</h2>
+        <h2 class="md:text-5xl text-2xl font-bold text-white text-left mb-8">Services We Offer</h2>
         <div class="services-list flex flex-col space-y-2">
             <!-- Horizontal Line -->
             <hr class="border-t border-gray-300">
@@ -13,10 +13,10 @@
                 <div
                     class="service-content flex-1 text-left opacity-70 transition-opacity duration-1000 group-hover:opacity-100">
                     <h3
-                        class="service-title text-5xl font-plush font-bold text-[#d1c4e9] transition-colors duration-1000 group-hover:text-white">
+                        class="service-title md:text-5xl text-2xl font-plush font-bold text-[#d1c4e9] transition-colors duration-1000 group-hover:text-white">
                         Web Development</h3>
                     <p
-                        class="service-description leading-7 w-full md:w-3/4  my-4 text-xl  text-[#ffffffcc] opacity-0 visibility-hidden transition-all duration-1000 group-hover:opacity-100 group-hover:visible">
+                        class="service-description group-hover:max-h-full leading-7 w-full md:w-3/4  my-4 text-base md:text-xl  text-[#ffffffcc] opacity-0 visibility-hidden transition-all duration-1000 group-hover:opacity-100 group-hover:visible">
                         Our professional web design solutions are creative and functional to create stunning websites.
                         We ensure that your website conveys your brand message and increases user retention.
                     </p>

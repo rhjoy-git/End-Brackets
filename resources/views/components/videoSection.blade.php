@@ -1,12 +1,12 @@
 <section class="video-section">
     <!-- Wave Background -->
-    <div class="wave-overlay">
+    <div class="wave-overlay z-10">
         <img src="{{asset('resources/images/videoSec/wave left.png')}}" class="wave-left" alt="Wave Left">
         <img src="{{asset('resources/images/videoSec/wave right.png')}}" class="wave-right" alt="Wave Right">
     </div>
 
     <!-- Video Container -->
-    <div class="video-container">
+    <div class="video-container z-20">
         <div class="video-frame">
             <!-- Video -->
             <video id="video" width="100%" controls>

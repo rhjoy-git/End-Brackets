@@ -2,16 +2,16 @@
     <div class="container mx-auto px-4 py-4 max-w-screen-xl">
         {{-- Section Header --}}
         <div class="text-center">
-            <h2 class="text-5xl sm:text-4xl font-bold text-white mb-2">
+            <h2 class="md:text-5xl text-2xl font-bold text-white mb-2">
                 Meet Our Team
             </h2>
-            <p class="text-lg text-gray-300 mt-4">
+            <p class="text-base md:text-lg text-gray-300 mt-4">
                 Get to know the talented individuals who make our company thrive. Our diverse team brings together a wealth of expertise.
             </p>
         </div>
 
         {{-- Team Members Grid --}}
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 mt-12">
             {{-- Team Member 01 --}}
             <div class="relative group overflow-hidden rounded-lg shadow-lg">
                 {{-- Member Image --}}
@@ -104,8 +104,8 @@
         </div>
 
         {{-- See More Link --}}
-        <div class="text-center mt-8">
-            <a href="#" class="text-purple-500 hover:text-purple-300 font-medium">
+        <div class="text-center mt-14">
+            <a href="#" class="btn border py-3 px-5 rounded-lg text-purple-800 hover:text-white font-medium">
                 See More →
             </a>
         </div>
