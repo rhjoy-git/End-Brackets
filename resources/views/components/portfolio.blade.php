@@ -1,4 +1,4 @@
-<div class="container mx-auto px-4 py-16 max-w-screen-xl">
+<div class="container mx-auto px-4 py-10 max-w-screen-xl" id="portfolio">
     <!-- Portfolio Header -->
     <div class="flex flex-col sm:flex-row justify-between items-center sm:items-end mb-8">
         <div class="text-center sm:text-left">

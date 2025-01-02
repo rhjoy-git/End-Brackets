@@ -4,7 +4,7 @@
         {{ session('success') }}
     </div>
 @endif
-<section class="container mx-auto px-4 pt-10 pb-24 md:max-w-screen-2xl">
+<section class="container mx-auto px-4 py-10 md:max-w-screen-2xl">
     <div class="flex justify-center items-center">
         <div class="w-full md:max-w-4xl bg-black rounded-3xl text-center p-6 md:p-16 relative">
             <div class="absolute inset-0 bg-cover bg-center rounded-3xl opacity-50"

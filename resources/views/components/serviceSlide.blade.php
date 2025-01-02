@@ -1,6 +1,6 @@
-<section class=" bg-customPurple py-14">
+<section class="dark:bg-[#2c0032] bg-[#2c0032] py-10">
     <div class="md:px-20 px-6 overflow-hidden md:w-11/12 container mx-auto">
-        <div class="slide-track flex items-center space-x-20">
+        <div class="slide-track flex gap-2 md:gap-20 items-center space-x-10 md:space-x-20">
             <!-- WordPress 1 -->
             <div class="flex items-center text-white text-center">
                 <img src="{{ asset('resources/images/widgeticons/wordpress.png') }}" alt="WordPress"

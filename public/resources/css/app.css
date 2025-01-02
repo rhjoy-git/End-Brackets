@@ -47,8 +47,6 @@ body {
 }
 
 .slide-track {
-    display: flex;
-    gap: 5rem;
     animation: scroll 15s linear infinite;
     width: calc(330px * 10);
 }
@@ -112,7 +110,6 @@ body {
     margin: 0 auto;
     background: white;
     border-radius: 20px;
-    padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 

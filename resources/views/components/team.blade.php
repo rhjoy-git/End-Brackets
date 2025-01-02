@@ -1,4 +1,4 @@
-<div class="bg-custom-gradient py-16">
+<div class="bg-custom-gradient dark:bg-[#2c0032] py-10">
     <div class="container mx-auto px-4 py-4 max-w-screen-xl">
         {{-- Section Header --}}
         <div class="text-center">

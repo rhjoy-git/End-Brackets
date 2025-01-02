@@ -6,7 +6,7 @@
     </div>
 
     <!-- Video Container -->
-    <div class="video-container z-20">
+    <div class="video-container p-2 md:p-5 z-20">
         <div class="video-frame">
             <!-- Video -->
             <video id="video" width="100%" controls>

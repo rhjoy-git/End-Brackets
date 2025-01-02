@@ -2,7 +2,9 @@
     <div class="container mx-auto px-4 flex flex-wrap justify-between items-start">
         <!-- Left Section -->
         <div class="w-full md:w-1/3 mb-6">
-            <h3 class="text-3xl coca-cola text-white">End Brackets</h3>
+            <a href="#" class="">
+                <img src="{{ asset('/resources/images/eblogo.png') }}" alt="Eb Logo" class="h-7">
+            </a>
             <p class="text-base text-gray-300 mt-4">
                 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those Lorem Ipsum. The
                 standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those Lorem Ipsum.

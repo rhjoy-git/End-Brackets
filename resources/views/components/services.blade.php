@@ -1,5 +1,5 @@
-<section class="services-section bg-custom-gradient">
-    <div class="container mx-auto px-4 py-16 max-w-screen-xl">
+<section class="services-section bg-custom-gradient dark:bg-[#2c0032]">
+    <div class="container mx-auto px-4 py-10 max-w-screen-xl">
         <h2 class="md:text-5xl text-2xl font-bold text-white text-left mb-8">Services We Offer</h2>
         <div class="services-list flex flex-col space-y-2">
             <!-- Horizontal Line -->
