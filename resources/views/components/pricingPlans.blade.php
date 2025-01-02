@@ -29,7 +29,7 @@
     </div>
 
     <!-- Plan Cards -->
-    <div class="flex md:flex-wrap justify-center gap-2 md:gap-6 overflow-x-auto overflow-visible snap-x snap-mandatory scroll-smooth md:snap-none"
+    <div class="flex md:flex-wrap justify-center gap-2 md:gap-6 overflow-x-auto md:overflow-visible snap-x snap-mandatory scroll-smooth md:snap-none"
         id="plans-container">
         <!-- Shopify Basic Plan -->
         <div
