@@ -36,7 +36,8 @@
                 <h2 class="text-white text-3xl xlg:text-4xl font-semibold mb-8">
                     Subscribe to our newsletter to get the best advice on Technology
                 </h2>
-                <form action="{{ route('newsletter.subscribe') }}" method="POST" class="flex justify-center items-center">
+                <form action="{{ route('newsletter.subscribe') }}" method="POST"
+                    class="flex justify-center items-center">
                     @csrf
                     <input type="email" name="email" placeholder="Enter Your Email"
                         class="w-full md:w-3/4 p-4 rounded-l-md text-gray-800 focus:outline-none" required />
@@ -49,4 +50,3 @@
         </div>
     </div>
 </section>
-

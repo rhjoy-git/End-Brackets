@@ -9,7 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&display=swap" rel="stylesheet">
     <!-- Include CSS -->
     <link rel="stylesheet" href="{{ asset('/resources/css/app.css') }}">
     <!-- Include Bootstrap/Tailwind -->
@@ -18,14 +18,15 @@
 </head>
 
 <body style="background-color: #ececec;">
-    <header class="bg-cover bg-center h-screen" style="background-image: url('{{ asset('resources/images/Hero image.png') }}');">
-        @include('components.header')
-    </header>
+
+
+    @include('components.header')
     @include('components.serviceSlide')
     @include('components.videoSection')
     @include('components.services')
     @include('components.portfolio')
     @include('components.pricingPlans')
+    @include('components.team')
     @include('components.hAndq')
     @include('components.newsletter')
     @include('components.footer')
@@ -33,6 +34,8 @@
     @include('components.chatBot')
 
 
-    <script src="{{asset('resources/js/main.js')}}"></script>
+    <script src="{{ asset('resources/js/main.js') }}"></script>
+
 </body>
+
 </html>

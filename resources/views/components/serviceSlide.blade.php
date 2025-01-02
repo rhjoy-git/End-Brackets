@@ -1,5 +1,5 @@
-<section class="container bg-customPurple py-14 mx-auto">
-    <div class="md:px-20 px-6 overflow-hidden md:w-11/12 mx-auto">
+<section class=" bg-customPurple py-14">
+    <div class="md:px-20 px-6 overflow-hidden md:w-11/12 container mx-auto">
         <div class="slide-track flex items-center space-x-20">
             <!-- WordPress 1 -->
             <div class="flex items-center text-white text-center">
@@ -26,8 +26,7 @@
             </div>
             <!-- Figma 5 -->
             <div class="flex items-center text-white text-center">
-                <img src="{{ asset('resources/images/widgeticons/figma.png') }}" alt="Figma"
-                    class="w-14 h-14 mx-2">
+                <img src="{{ asset('resources/images/widgeticons/figma.png') }}" alt="Figma" class="w-14 h-14 mx-2">
                 <span class="text-3xl font-bold px-3 font-poppins">Figma</span>
             </div>
             <!-- Duplicate Items for Infinite Scrolling -->
@@ -56,8 +55,7 @@
             </div>
             <!-- Figma 10 -->
             <div class="flex items-center text-white text-center">
-                <img src="{{ asset('resources/images/widgeticons/figma.png') }}" alt="Figma"
-                    class="w-14 h-14 mx-2">
+                <img src="{{ asset('resources/images/widgeticons/figma.png') }}" alt="Figma" class="w-14 h-14 mx-2">
                 <span class="text-3xl font-bold px-3 font-poppins">Figma</span>
             </div>
         </div>

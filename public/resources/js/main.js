@@ -59,4 +59,3 @@ playButton.addEventListener('click', () => {
 
     // Show Shopify plans by default
     showPlans('shopify');
-

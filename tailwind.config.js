@@ -15,12 +15,19 @@ export default {
                 customPurple: "#2c0032", // Add the custom purple color
             },
             fontFamily: {
-                sans: ["Figtree", ...defaultTheme.fontFamily.sans],
-                iceberg: ["Iceberg", ...defaultTheme.fontFamily.sans],
-                poppins: ["Poppins", "sans-serif"], // Poppins font for consistency
+                aeonik: ["AeonikTRIAL", "sans-serif"],
+                plush: ["Plush", "cursive"],
+                rubik: ["Rubik", "sans-serif"],
+                ebfont: ['Aeonik', 'Rubik', 'serif'],
             },
             animation: {
                 scroll: "scroll 20s linear infinite", // Smooth scroll animation
+            },
+            backgroundImage: {
+                'custom-gradient': 'linear-gradient(180deg, #320b37 0%, #5b0c65 60%, #130415 100%)',
+              },
+            animation: {
+                scroll: "scroll 20s linear infinite", 
             },
             keyframes: {
                 scroll: {

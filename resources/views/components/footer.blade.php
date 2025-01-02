@@ -4,11 +4,13 @@
         <div class="w-full md:w-1/3 mb-6">
             <h3 class="text-3xl coca-cola text-white">End Brackets</h3>
             <p class="text-base text-gray-300 mt-4">
-                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those Lorem Ipsum. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those Lorem Ipsum.
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those Lorem Ipsum. The
+                standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those Lorem Ipsum.
             </p>
             <div class="flex mt-4 space-x-4">
                 <a href="#" class="icon-box"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="icon-box"><i class="fab fa-whatsapp" style="color: #25D366; font-size: 24px;"></i></a>
+                <a href="#" class="icon-box"><i class="fab fa-whatsapp"
+                        style="color: #25D366; font-size: 24px;"></i></a>
                 <a href="#" class="icon-box"><i class="fa fa-phone"></i></a>
             </div>
         </div>
@@ -31,7 +33,8 @@
             <ul class="space-y-4">
                 <li class="flex items-center">
                     <div class="icon-box"><i class="fa fa-envelope"></i></div>
-                    <a href="mailto:info@endbrackets.com" class="text-white hover:underline pl-2">info@endbrackets.com</a>
+                    <a href="mailto:info@endbrackets.com"
+                        class="text-white hover:underline pl-2">info@endbrackets.com</a>
                 </li>
                 <li class="flex items-center">
                     <div class="icon-box flex-shrink-0"><i class="fa fa-phone"></i></div>

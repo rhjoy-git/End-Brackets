@@ -1,85 +1,48 @@
 @font-face {
-    font-family: "CocaCola";
-    src: url("https://example.com/coca-cola-font.woff") format("woff");
+    font-family: 'AeonikTRIAL';
+    src: url('/fonts/AeonikTRIAL-Bold.otf') format('opentype'),
+         url('/fonts/AeonikTRIAL-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Plush';
+    src: url('/fonts/Plush-Bold-BF654c40144cc74.otf') format('opentype'),
+         url('/fonts/Plush-ExtraBold-BF654c4014409f5.otf') format('opentype'),
+         url('/fonts/Plush-Medium-BF654c401412ccd.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    src: url('/fonts/Rubik-Black.ttf') format('truetype'),
+         url('/fonts/Rubik-Bold.ttf') format('truetype'),
+         url('/fonts/Rubik-ExtraBold.ttf') format('truetype'),
+         url('/fonts/Rubik-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('/fonts/Rubik-Medium.ttf') format('truetype'),
+         url('/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+/* Add more font-face declarations here for other font styles/weights */
+
+
+/* Example usage */
+body {
+    font-family: 'Aeonik', sans-serif;
 }
 
-.coca-cola {
-    font-family: "CocaCola", sans-serif;
-}
-
-/* Hero  Styling */
-header {
-    background: linear-gradient(to bottom, #2d3748, #1a202c);
-    /* Dark gradient */
-    color: white;
-}
-
-header h1 span {
-    color: #a855f7;
-    /* Highlight color */
-}
-
-/* Button Hover Effects */
-header a {
-    transition: all 0.3s ease;
-}
-
-header a:hover {
-    transform: translateY(-2px);
-    /* Subtle hover lift */
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    /* Adjust the height as needed */
-}
-
-nav a {
-    font-size: 16px;
-    /* Adjust link font size */
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #a855f7;
-    /* Hover effect for links */
-}
-
-/* Top Bar */
-.bg-gray-800 {
-    background-color: #2d3748;
-    /* Dark gray */
-}
-
-.top-bar a {
-    transition: background-color 0.3s ease;
-}
-
-/* Icon Box Style */
-.top-bar a:hover {
-    background-color: #6b46c1;
-    /* Purple */
-}
-
-/* Icon Box Shape */
-.top-bar a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 0.25rem;
-    /* Rounded corners */
-}
 /* ============== Service slider Start =============== */
 
 @keyframes scroll {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(calc(-330px * 5));
     }
@@ -95,9 +58,11 @@ nav a:hover {
 .container {
     overflow: hidden;
 }
+
 .slide-track:hover {
     animation-play-state: paused;
 }
+
 /* ============== Service slider End =============== */
 /* ============================= */
 /* Video Section Styling */
@@ -214,12 +179,7 @@ nav a:hover {
 
 /* ============= Services Start ================ */
 
-/* Services Section */
-.services-section {
-    background: linear-gradient(180deg, #320b37 0%, #5b0c65 60%, #130415 100%);
-    color: white;
-    font-family: "Arial", sans-serif;
-}
+
 
 .section-title {
     font-size: 3rem;
@@ -229,21 +189,10 @@ nav a:hover {
 }
 
 /* Service Item */
-.services-list .service-item {
-    position: relative;
-}
-
-.services-list .service-item:hover {
-    cursor: pointer;
-}
 
 /* Service Content */
 .services-list .service-item .service-content {
     visibility: visible;
-}
-
-.services-list .service-item .service-description {
-    max-width: 75%;
 }
 
 .services-list .service-item:hover .service-description {
@@ -276,7 +225,7 @@ nav a:hover {
     transform: scale(1.1) rotate(30deg) translate(-35%, 35%);
 }
 
-.services-list > .service-item::before {
+.services-list>.service-item::before {
     content: "";
     position: absolute;
     top: 0;
@@ -304,208 +253,12 @@ nav a:hover {
         text-align: center;
     }
 }
+
 /* ============= Services End ================ */
 
-/* ============= Portfolio Start ================ */
-/* General Styling */
-/* .portfolio-container {
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-}
-.portfolio-header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    text-align: left;
-}
-.portfolio-header h2 {
-    font-size: 55px;
-    font-weight: bold;
-    color: #9c27b0;
-    margin: 10px 0;
-}
-.portfolio-header h3 {
-    font-size: 25px;
-    color: #000000;
-    margin: 20px 0;
-}
-
-.filter-buttons {
-    margin: 10px 0;
-}
-
-.filter-btn {
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    background: #9c27b0;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: 0.3s;
-    font-weight: 500;
-}
-
-.filter-btn:hover,
-.filter-btn.active {
-    background: #c93ae2;
-} */
-
-/* Grid Styling */
-/* .portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.portfolio-card {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.portfolio-card img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-}
-
-.portfolio-card:hover img {
-    transform: scale(1.1);
-} */
-
-/* Overlay */
-/* .card-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-        180deg,
-        rgba(179, 30, 207, 0.54) 0%,
-        rgba(91, 15, 105, 0.9) 100%
-    );
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.portfolio-card:hover .card-overlay {
-    opacity: 1;
-}
-
-.card-overlay h4 {
-    font-size: 22px;
-    font-weight: 600;
-    margin: 10px 0;
-}
-.card-overlay p {
-    padding: 0 16px;
-}
-.card-overlay span {
-    font-size: 16px;
-    color: #fba504;
-    font-weight: 600;
-} */
-
-/* ============= Portfolio End ================ */
-
 /* ============= Pricing plan Start ================ */
-.pricing-section {
-    text-align: center;
-    padding: 50px 20px;
-}
-.pricing-section h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    font-weight: bolder;
-}
-.pricing-section p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-    color: #666;
-}
-.filter-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 30px;
-}
-.filter-buttons button {
-    background-color: #c93ae2;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 1.1em;
-    font-weight: 500;
-    color: #e2e2e2;
-}
-.filter-buttons button.active {
-    background-color: #b90dd7;
-    color: #fff;
-}
-.pricing-plans {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-.plan {
-    background-color: #fff;
-    border: 2px solid #b31ecf;
-    border-radius: 10px;
-    width: 300px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 0 10px 5px rgba(179, 30, 207, 0.5);
-}
 
-.plan h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-.plan h4 {
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 10px;
-}
-.plan p {
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 20px;
-}
-.plan ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.plan ul li {
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.plan ul li::before {
-    content: "\2713";
-    color: #4caf50;
-}
-.plan button {
-    background-color: #9c27b0;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 1em;
-}
+
 /* ============= Pricing plan End ================ */
 
 /* ============= Footer Start ================ */
@@ -514,45 +267,55 @@ nav a:hover {
     color: #fff;
     padding: 50px 20px;
 }
+
 .footer .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .footer-column {
     flex: 1;
     min-width: 250px;
     margin: 10px;
 }
+
 .footer-column h3 {
     font-size: 1.5em;
     margin-bottom: 20px;
 }
+
 .footer-column p {
     font-size: 0.9em;
     line-height: 1.5em;
     margin-bottom: 20px;
     color: #eaeaea;
 }
+
 .footer-column ul {
     list-style: none;
     padding: 0;
 }
+
 .footer-column ul li {
     margin-bottom: 10px;
 }
+
 .footer-column ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 0.9em;
 }
+
 .footer-column ul li a:hover {
     text-decoration: underline;
 }
+
 .social-icons {
     display: flex;
     gap: 10px;
 }
+
 .social-icons a {
     display: inline-block;
     width: 40px;
@@ -565,9 +328,11 @@ nav a:hover {
     font-size: 1.2em;
     transition: background 0.3s;
 }
+
 .social-icons a:hover {
     background: #9614a7;
 }
+
 .icon-box {
     width: 40px;
     height: 40px;
@@ -578,6 +343,7 @@ nav a:hover {
     border-radius: 8px;
     color: white;
 }
+
 .footer-bottom {
     background-color: #3f0d48;
     padding: 15px 20px;
@@ -585,17 +351,21 @@ nav a:hover {
     color: #fff;
     font-size: 0.9em;
 }
+
 .footer-bottom a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
 }
+
 .footer-bottom a:hover {
     text-decoration: underline;
 }
+
 .ebbrand {
     font-family: "CocaCola", sans-serif;
 }
+
 /* ============= Footer End ================ */
 
 /* ============= H&Q Start ================ */
@@ -607,9 +377,11 @@ nav a:hover {
 .faq-item {
     position: relative;
     padding: 1.5rem 0;
-    border-top: 1px solid #ddd; /* Horizontal line */
+    border-top: 1px solid #ddd;
+    /* Horizontal line */
     cursor: pointer;
 }
+
 .faq-item h5 {
     font-size: 1.3rem;
     font-weight: 600;
@@ -620,9 +392,11 @@ nav a:hover {
     align-items: center;
     transition: color 0.3s ease;
 }
+
 .faq-item:hover h5 {
     color: #9614a7;
 }
+
 .faq-item p {
     font-size: 1.15rem;
     color: #555;
@@ -633,18 +407,23 @@ nav a:hover {
     margin: 0;
     max-width: 90%;
 }
+
 .faq-item.open p {
     max-height: 100px;
     opacity: 1;
     margin-top: 1rem;
 }
+
 .faq-item .icon {
     font-size: 1.5rem;
     transition: transform 0.3s ease;
 }
+
 .faq-item.open .icon {
-    transform: rotate(45deg); /* Transform plus to minus */
+    transform: rotate(45deg);
+    /* Transform plus to minus */
 }
+
 /* ============= H&Q End ================ */
 
 /* ============= newsletter Start ================ */
