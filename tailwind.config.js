@@ -12,7 +12,7 @@ export default {
     theme: {
         extend: {
             colors: {
-                customPurple: "#2c0032", // Add the custom purple color
+                customPurple: "#2c0032", 
             },
             fontFamily: {
                 aeonik: ["AeonikTRIAL", "sans-serif"],

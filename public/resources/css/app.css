@@ -43,6 +43,7 @@ body {
         transform: translateX(0);
     }
 
+
     100% {
         transform: translateX(calc(-330px * 5));
     }
@@ -59,9 +60,11 @@ body {
     overflow: hidden;
 }
 
+
 .slide-track:hover {
     animation-play-state: paused;
 }
+
 
 /* ============== Service slider End =============== */
 /* ============================= */
@@ -181,6 +184,7 @@ body {
 
 
 
+
 .section-title {
     font-size: 3rem;
     margin-bottom: 40px;
@@ -225,6 +229,7 @@ body {
     transform: scale(1.1) rotate(30deg) translate(-35%, 35%);
 }
 
+
 .services-list>.service-item::before {
     content: "";
     position: absolute;
@@ -254,9 +259,12 @@ body {
     }
 }
 
+
 /* ============= Services End ================ */
 
 /* ============= Pricing plan Start ================ */
+
+
 
 
 /* ============= Pricing plan End ================ */
@@ -268,11 +276,13 @@ body {
     padding: 50px 20px;
 }
 
+
 .footer .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 
 .footer-column {
     flex: 1;
@@ -280,10 +290,12 @@ body {
     margin: 10px;
 }
 
+
 .footer-column h3 {
     font-size: 1.5em;
     margin-bottom: 20px;
 }
+
 
 .footer-column p {
     font-size: 0.9em;
@@ -292,14 +304,17 @@ body {
     color: #eaeaea;
 }
 
+
 .footer-column ul {
     list-style: none;
     padding: 0;
 }
 
+
 .footer-column ul li {
     margin-bottom: 10px;
 }
+
 
 .footer-column ul li a {
     color: #fff;
@@ -307,14 +322,17 @@ body {
     font-size: 0.9em;
 }
 
+
 .footer-column ul li a:hover {
     text-decoration: underline;
 }
+
 
 .social-icons {
     display: flex;
     gap: 10px;
 }
+
 
 .social-icons a {
     display: inline-block;
@@ -329,9 +347,11 @@ body {
     transition: background 0.3s;
 }
 
+
 .social-icons a:hover {
     background: #9614a7;
 }
+
 
 .icon-box {
     width: 40px;
@@ -344,6 +364,7 @@ body {
     color: white;
 }
 
+
 .footer-bottom {
     background-color: #3f0d48;
     padding: 15px 20px;
@@ -352,19 +373,23 @@ body {
     font-size: 0.9em;
 }
 
+
 .footer-bottom a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
 }
 
+
 .footer-bottom a:hover {
     text-decoration: underline;
 }
 
+
 .ebbrand {
     font-family: "CocaCola", sans-serif;
 }
+
 
 /* ============= Footer End ================ */
 
@@ -379,8 +404,11 @@ body {
     padding: 1.5rem 0;
     border-top: 1px solid #ddd;
     /* Horizontal line */
+    border-top: 1px solid #ddd;
+    /* Horizontal line */
     cursor: pointer;
 }
+
 
 .faq-item h5 {
     font-size: 1.3rem;
@@ -393,9 +421,11 @@ body {
     transition: color 0.3s ease;
 }
 
+
 .faq-item:hover h5 {
     color: #9614a7;
 }
+
 
 .faq-item p {
     font-size: 1.15rem;
@@ -408,21 +438,27 @@ body {
     max-width: 90%;
 }
 
+
 .faq-item.open p {
     max-height: 100px;
     opacity: 1;
     margin-top: 1rem;
 }
 
+
 .faq-item .icon {
     font-size: 1.5rem;
     transition: transform 0.3s ease;
 }
 
+
 .faq-item.open .icon {
     transform: rotate(45deg);
     /* Transform plus to minus */
+    transform: rotate(45deg);
+    /* Transform plus to minus */
 }
+
 
 /* ============= H&Q End ================ */
 
