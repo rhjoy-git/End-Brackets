@@ -2,27 +2,27 @@
     <!-- Portfolio Header -->
     <div class="flex flex-col sm:flex-row justify-between items-center sm:items-end mb-8">
         <div class="text-center sm:text-left">
-            <h2 class="text-5xl sm:text-4xl font-bold text-purple-600 mb-2">Our Portfolio</h2>
+            <h2 class="text-5xl sm:text-4xl font-bold text-[#6B21A8] mb-2">Our Portfolio</h2>
             <h3 class="text-lg sm:text-xl text-gray-800">Recent Projects</h3>
         </div>
         <div class="filter-buttons flex flex-wrap justify-center sm:justify-end gap-2 mt-4 sm:mt-0">
             <button
-                class="filter-btn active px-4 py-2 text-sm sm:text-base text-white bg-purple-700 rounded hover:bg-purple-800 active:bg-purple-900"
+                class="filter-btn active px-4 py-2 text-sm sm:text-base text-white bg-[#6B21A8] rounded hover:bg-[#581C87] active:bg-[#581C87]"
                 data-filter="all">All</button>
             <button
-                class="filter-btn px-4 py-2 text-sm sm:text-base text-white bg-purple-600 rounded hover:bg-purple-800 active:bg-purple-900"
+                class="filter-btn px-4 py-2 text-sm sm:text-base text-white bg-[#6B21A8] rounded hover:bg-[#581C87] active:bg-[#581C87]"
                 data-filter="app">App</button>
             <button
-                class="filter-btn px-4 py-2 text-sm sm:text-base text-white bg-purple-600 rounded hover:bg-purple-800 active:bg-purple-900"
+                class="filter-btn px-4 py-2 text-sm sm:text-base text-white bg-[#6B21A8] rounded hover:bg-[#581C87] active:bg-[#581C87]"
                 data-filter="shopify">Shopify</button>
             <button
-                class="filter-btn px-4 py-2 text-sm sm:text-base text-white bg-purple-600 rounded hover:bg-purple-800 active:bg-purple-900"
+                class="filter-btn px-4 py-2 text-sm sm:text-base text-white bg-[#6B21A8] rounded hover:bg-[#581C87] active:bg-[#581C87]"
                 data-filter="wordpress">WordPress</button>
             <button
-                class="filter-btn px-4 py-2 text-sm sm:text-base text-white bg-purple-600 rounded hover:bg-purple-800 active:bg-purple-900"
+                class="filter-btn px-4 py-2 text-sm sm:text-base text-white bg-[#6B21A8] rounded hover:bg-[#581C87] active:bg-[#581C87]"
                 data-filter="uiux">UI/UX</button>
             <button
-                class="filter-btn px-4 py-2 text-sm sm:text-base text-white bg-purple-600 rounded hover:bg-purple-800 active:bg-purple-900"
+                class="filter-btn px-4 py-2 text-sm sm:text-base text-white bg-[#6B21A8] rounded hover:bg-[#581C87] active:bg-[#581C87]"
                 data-filter="marketing">Marketing</button>
         </div>
     </div>
@@ -151,13 +151,13 @@
         button.addEventListener('click', () => {
             // Remove active class and reset styles from all buttons
             filterButtons.forEach((btn) => {
-                btn.classList.remove('active', 'bg-purple-700');
-                btn.classList.add('bg-purple-600');
+                btn.classList.remove('active', 'bg-[#581C87]');
+                btn.classList.add('bg-[#6B21A8]');
             });
 
             // Add active class and styles to the clicked button
-            button.classList.add('active', 'bg-purple-700');
-            button.classList.remove('bg-purple-600');
+            button.classList.add('active', 'bg-[#581C87]');
+            button.classList.remove('bg-[#6B21A8]');
 
             // Filter cards based on the data-category
             const filter = button.dataset.filter;

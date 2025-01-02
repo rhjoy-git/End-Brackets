@@ -39,23 +39,3 @@ playButton.addEventListener('click', () => {
 // });
 
 ////// ===================== //////
-
-    function showPlans(service) {
-        const allPlans = document.querySelectorAll('.plan');
-        const buttons = document.querySelectorAll('.filter-buttons button');
-
-        buttons.forEach(button => button.classList.remove('active'));
-
-        document.querySelector(`button[onclick="showPlans('${service}')"]`).classList.add('active');
-
-        allPlans.forEach(plan => {
-            if (plan.classList.contains(service)) {
-                plan.style.display = 'block';
-            } else {
-                plan.style.display = 'none';
-            }
-        });
-    }
-
-    // Show Shopify plans by default
-    showPlans('shopify');

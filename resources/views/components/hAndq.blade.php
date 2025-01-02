@@ -1,5 +1,5 @@
 <section class="container mx-auto px-4 py-16 max-w-screen-xl">
-    <h2 class="text-3xl font-bold text-center mb-8">Have Questions?</h2>
+    <h2 class="text-5xl sm:text-4xl font-bold text-purple-600 mb-8">Have Questions?</h2>
     <!-- FAQ Item 1 -->
     <div class="faq-item" onclick="toggleFAQ(this)">
         <h5>
