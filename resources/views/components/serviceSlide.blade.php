@@ -1,4 +1,4 @@
-<section class="dark:bg-[#2c0032] bg-[#2c0032] py-10">
+<section class="dark:bg-[#8021bf] bg-[#8021bf] py-10">
     <div class="md:px-20 px-6 overflow-hidden md:w-11/12 container mx-auto">
         <div class="slide-track flex gap-2 md:gap-20 items-center space-x-10 md:space-x-20">
             <!-- WordPress 1 -->

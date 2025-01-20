@@ -1,14 +1,14 @@
 <div class="container mx-auto px-4 py-10 max-w-screen-xl" id="portfolio">
     <!-- Portfolio Header -->
-    <div class="flex flex-col sm:flex-row justify-between items-center sm:items-end mb-8">
-        <div class="text-center sm:text-left">
-            <h2 class="md:text-5xl text-2xl font-bold text-[#6B21A8] mb-2">Our Portfolio</h2>
-            <h3 class="text-lg sm:text-xl text-gray-800">Recent Projects</h3>
-        </div>
-        <div class="filter-buttons flex flex-wrap justify-center sm:justify-end gap-2 mt-4 sm:mt-0">
+    <div class="flex flex-col sm:flex-row justify-center items-center sm:items-end md:my-16">
+        <div class="filter-buttons flex flex-wrap justify-center sm:justify-end gap-3 mt-4 sm:mt-0">
             <button
-                class="filter-btn active px-4 py-2 text-sm sm:text-base text-white bg-[#6B21A8] rounded hover:bg-[#581C87] active:bg-[#581C87]"
-                data-filter="all">All</button>
+                class="filter-btn relative inline-flex items-center active px-4 py-2 text-sm sm:text-base text-white bg-[#6B21A8] rounded hover:bg-[#581C87] active:bg-[#581C87]"
+                data-filter="all">All
+                <div
+                    class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-[#9B4DCC] border-2 border-white rounded -top-2 -end-2">
+                    9</div>
+            </button>
             <button
                 class="filter-btn px-4 py-2 text-sm sm:text-base text-white bg-[#6B21A8] rounded hover:bg-[#581C87] active:bg-[#581C87]"
                 data-filter="app">App</button>
@@ -31,7 +31,7 @@
     <!-- Portfolio Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Card 1 -->
-        <div class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
+        <a href="  " class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
             data-category="uiux app">
             <img src="{{ asset('resources/images/portfolio/portfolio1.png') }}" alt="Clothing Website"
                 class="w-full h-auto transition-transform duration-300 group-hover:scale-110 rounded-lg group-hover:rounded-md ">
@@ -41,9 +41,9 @@
                 <p class="text-base px-4 mb-2 text-center">Promoting brand and displaying products for summer.</p>
                 <span class="text-yellow-400 font-semibold">UI/UX</span>
             </div>
-        </div>
+        </a>
         <!-- Card 2 -->
-        <div class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
+        <a href="  " class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
             data-category="app">
             <img src="{{ asset('resources/images/portfolio/portfolio2.png') }}" alt="Mobile App"
                 class="w-full h-auto transition-transform duration-300 group-hover:scale-110 rounded-lg group-hover:rounded-md">
@@ -53,9 +53,9 @@
                 <p class="text-base px-4 mb-2 text-center">A sleek mobile application for tracking fitness goals.</p>
                 <span class="text-yellow-400 font-semibold">App Development</span>
             </div>
-        </div>
+        </a>
         <!-- Card 3 -->
-        <div class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
+        <a href="  " class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
             data-category="shopify">
             <img src="{{ asset('resources/images/portfolio/portfolio3.png') }}" alt="E-Commerce Store"
                 class="w-full h-auto transition-transform duration-300 group-hover:scale-110 rounded-lg group-hover:rounded-md">
@@ -65,9 +65,9 @@
                 <p class="text-base px-4 mb-2 text-center">A Shopify store designed for modern online shopping.</p>
                 <span class="text-yellow-400 font-semibold">Shopify</span>
             </div>
-        </div>
+        </a>
         <!-- Card 4 -->
-        <div class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
+        <a href="  " class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
             data-category="wordpress">
             <img src="{{ asset('resources/images/portfolio/portfolio4.png') }}" alt="WordPress Blog"
                 class="w-full h-auto transition-transform duration-300 group-hover:scale-110 rounded-lg group-hover:rounded-md">
@@ -77,9 +77,9 @@
                 <p class="text-base px-4 mb-2 text-center">A content-rich blog built for seamless reading.</p>
                 <span class="text-yellow-400 font-semibold">WordPress</span>
             </div>
-        </div>
+        </a>
         <!-- Card 5 -->
-        <div class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
+        <a href="  " class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
             data-category="marketing">
             <img src="{{ asset('resources/images/portfolio/portfolio5.png') }}" alt="Marketing Campaign"
                 class="w-full h-auto transition-transform duration-300 group-hover:scale-110 rounded-lg group-hover:rounded-md">
@@ -89,9 +89,9 @@
                 <p class="text-base px-4 mb-2 text-center">A vibrant campaign driving brand awareness.</p>
                 <span class="text-yellow-400 font-semibold">Marketing</span>
             </div>
-        </div>
+        </a>
         <!-- Card 6 -->
-        <div class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
+        <a href="  " class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
             data-category="uiux app">
             <img src="{{ asset('resources/images/portfolio/portfolio6.png') }}" alt="Mobile Banking App"
                 class="w-full h-auto transition-transform duration-300 group-hover:scale-110 rounded-lg group-hover:rounded-md">
@@ -101,9 +101,9 @@
                 <p class="text-base px-4 mb-2 text-center">A secure app for managing finances with intuitive UI.</p>
                 <span class="text-yellow-400 font-semibold">UI/UX • App</span>
             </div>
-        </div>
+        </a>
         <!-- Card 7 -->
-        <div class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
+        <a href="  " class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
             data-category="wordpress">
             <img src="{{ asset('resources/images/portfolio/portfolio7.png') }}" alt="Personal Blog"
                 class="w-full h-auto transition-transform duration-300 group-hover:scale-110 rounded-lg group-hover:rounded-md">
@@ -113,9 +113,9 @@
                 <p class="text-base px-4 mb-2 text-center">A minimalist WordPress blog for sharing thoughts.</p>
                 <span class="text-yellow-400 font-semibold">WordPress</span>
             </div>
-        </div>
+        </a>
         <!-- Card 8 -->
-        <div class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
+        <a href="  " class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
             data-category="marketing shopify">
             <img src="{{ asset('resources/images/portfolio/portfolio8.png') }}" alt="E-Commerce Campaign"
                 class="w-full h-auto transition-transform duration-300 group-hover:scale-110 rounded-lg group-hover:rounded-md">
@@ -125,9 +125,9 @@
                 <p class="text-base px-4 mb-2 text-center">A targeted Shopify campaign to boost online sales.</p>
                 <span class="text-yellow-400 font-semibold">Marketing • Shopify</span>
             </div>
-        </div>
+        </a>
         <!-- Card 9 -->
-        <div class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
+        <a href="  " class="portfolio-card relative overflow-hidden rounded-lg group group-hover:rounded-md"
             data-category="uiux app">
             <img src="{{ asset('resources/images/portfolio/portfolio9.png') }}" alt="Health Tracker App"
                 class="w-full h-auto transition-transform duration-300 group-hover:scale-110 rounded-lg group-hover:rounded-md">
@@ -137,8 +137,7 @@
                 <p class="text-base px-4 mb-2 text-center">A comprehensive app for monitoring health metrics.</p>
                 <span class="text-yellow-400 font-semibold">UI/UX • App</span>
             </div>
-        </div>
-
+        </a>
     </div>
 </div>
 

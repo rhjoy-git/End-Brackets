@@ -215,7 +215,7 @@ body {
     transform: scale(1.1) rotate(30deg) translate(-35%, 35%);
 }
 
-.services-list > .service-item::before {
+.services-list>.service-item::before {
     content: "";
     position: absolute;
     top: 0;
@@ -251,105 +251,6 @@ body {
 /* ============= Pricing plan End ================ */
 
 /* ============= Footer Start ================ */
-.footer {
-    background: linear-gradient(0deg, #9614a7 0%, #520c5c 100%);
-    color: #fff;
-    padding: 50px 20px;
-}
-
-.footer .container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.footer-column {
-    flex: 1;
-    min-width: 250px;
-    margin: 10px;
-}
-
-.footer-column h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-}
-
-.footer-column p {
-    font-size: 0.9em;
-    line-height: 1.5em;
-    margin-bottom: 20px;
-    color: #eaeaea;
-}
-
-.footer-column ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-column ul li {
-    margin-bottom: 10px;
-}
-
-.footer-column ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 0.9em;
-}
-
-.footer-column ul li a:hover {
-    text-decoration: underline;
-}
-
-.social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.social-icons a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background: #520c5c;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    color: #fff;
-    font-size: 1.2em;
-    transition: background 0.3s;
-}
-
-.social-icons a:hover {
-    background: #9614a7;
-}
-
-.icon-box {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #520c5c;
-    border-radius: 8px;
-    color: white;
-}
-
-.footer-bottom {
-    background-color: #3f0d48;
-    padding: 15px 20px;
-    text-align: center;
-    color: #fff;
-    font-size: 0.9em;
-}
-
-.footer-bottom a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.footer-bottom a:hover {
-    text-decoration: underline;
-}
 
 .ebbrand {
     font-family: "CocaCola", sans-serif;
@@ -383,7 +284,7 @@ body {
 }
 
 .faq-item:hover h5 {
-    color: #9614a7;
+    color: #9c21f3;
 }
 
 .faq-item p {
@@ -417,6 +318,7 @@ body {
 .service-description {
     max-height: 0;
 }
+
 /* ============= H&Q End ================ */
 
 /* ============= Chatbot Start ================ */

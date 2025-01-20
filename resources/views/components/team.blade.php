@@ -22,7 +22,7 @@
                 <div
                     class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     <h3 class="text-lg font-bold text-white">
-                        Alhaz Mondal Hredhay
+                        Md Alhaz Mondal Hredhay
                     </h3>
                     <p class="text-sm text-gray-300">COO</p>
                     <div class="flex space-x-4 mt-4">
@@ -52,7 +52,7 @@
                 <div
                     class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     <h3 class="text-lg font-bold text-white">
-                        Anika Afrina Anta
+                        Masum Billah
                     </h3>
                     <p class="text-sm text-gray-300">COO</p>
                     <div class="flex space-x-4 mt-4">
@@ -82,7 +82,7 @@
                 <div
                     class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     <h3 class="text-lg font-bold text-white">
-                        Alhaz Mondal Hredhay
+                        Rakibul Hasan Joy
                     </h3>
                     <p class="text-sm text-gray-300">COO</p>
                     <div class="flex space-x-4 mt-4">

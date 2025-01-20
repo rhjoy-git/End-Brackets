@@ -12,7 +12,7 @@ export default {
     theme: {
         extend: {
             colors: {
-                customPurple: "#2c0032", 
+                customPurple: "#2c0032",
             },
             fontFamily: {
                 aeonik: ["AeonikTRIAL", "sans-serif"],
@@ -22,17 +22,19 @@ export default {
             },
             animation: {
                 scroll: "scroll 20s linear infinite", // Smooth scroll animation
+                'rotate-border': 'rotate-border 2.5s linear infinite', // Glowing border rotation
             },
             backgroundImage: {
-                'custom-gradient': 'linear-gradient(180deg, #320b37 0%, #5b0c65 60%, #130415 100%)',
-              },
-            animation: {
-                scroll: "scroll 20s linear infinite", 
+                'custom-gradient': 'linear-gradient(180deg, #4c0970 0%, #6A0DAD 60%, #4c0970 100%)',
             },
             keyframes: {
                 scroll: {
                     "0%": { transform: "translateX(0%)" },
                     "100%": { transform: "translateX(-100%)" },
+                },
+                'rotate-border': {
+                    '0%': { '--gradient-angle': '0deg' },
+                    '100%': { '--gradient-angle': '360deg' },
                 },
             },
         },
